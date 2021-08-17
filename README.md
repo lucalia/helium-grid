@@ -8,7 +8,9 @@ To provide basic grid functionality with the fewest bytes possible.
 
 Helium Grid is designed to be super easy to implement in any project, requiring minimal modification to existing code. However, the primary goal is to provide this functionality with the smallest file that can possibly be sent across the wire.
 
-`https://cdn.jsdelivr.net/gh/lucalia/helium-grid@0.9.0/helium-grid.min.css`
+```
+https://cdn.jsdelivr.net/gh/lucalia/helium-grid@0.9.0/helium-grid.min.css
+```
 
 ## Getting Started
 
