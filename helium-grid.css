@@ -3,218 +3,201 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  flex-basis: 1 1 0px;
   margin-bottom: 20px;
 }
-
 .helium-grid > * {
-  width: 100%;
+  flex-basis: 100%;
   padding: 10px;
   box-sizing: border-box;
   height: auto;
 }
-
 .helium-grid .xs-1 {
-  width: 8.33%;
+  flex-basis: 8.33%;
 }
-
 .helium-grid .xs-2 {
-  width: 16.66%;
+  flex-basis: 16.66%;
 }
-
 .helium-grid .xs-3 {
-  width: 25%;
+  flex-basis: 25%;
 }
-
 .helium-grid .xs-4 {
-  width: 33.33%;
+  flex-basis: 33.33%;
 }
-
 .helium-grid .xs-5 {
-  width: 41.66%;
+  flex-basis: 41.66%;
 }
-
 .helium-grid .xs-6 {
-  width: 50%;
+  flex-basis: 50%;
 }
-
 .helium-grid .xs-7 {
-  width: 58.33%;
+  flex-basis: 58.33%;
 }
-
 .helium-grid .xs-8 {
-  width: 66.66%;
+  flex-basis: 66.66%;
 }
-
 .helium-grid .xs-9 {
-  width: 75%;
+  flex-basis: 75%;
 }
-
 .helium-grid .xs-10 {
-  width: 83.33%;
+  flex-basis: 83.33%;
 }
-
 .helium-grid .xs-11 {
-  width: 91.66%;
+  flex-basis: 91.66%;
 }
-
 .helium-grid .xs-12 {
-  width: 100%;
+  flex-basis: 100%;
 }
-
 @media screen and (min-width: 768px) {
   .helium-grid .sm-1 {
-    width: 8.33%;
+    flex-basis: 8.33%;
   }
   .helium-grid .sm-2 {
-    width: 16.66%;
+    flex-basis: 16.66%;
   }
   .helium-grid .sm-3 {
-    width: 25%;
+    flex-basis: 25%;
   }
   .helium-grid .sm-4 {
-    width: 33.33%;
+    flex-basis: 33.33%;
   }
   .helium-grid .sm-5 {
-    width: 41.66%;
+    flex-basis: 41.66%;
   }
   .helium-grid .sm-6 {
-    width: 50%;
+    flex-basis: 50%;
   }
   .helium-grid .sm-7 {
-    width: 58.33%;
+    flex-basis: 58.33%;
   }
   .helium-grid .sm-8 {
-    width: 66.66%;
+    flex-basis: 66.66%;
   }
   .helium-grid .sm-9 {
-    width: 75%;
+    flex-basis: 75%;
   }
   .helium-grid .sm-10 {
-    width: 83.33%;
+    flex-basis: 83.33%;
   }
   .helium-grid .sm-11 {
-    width: 91.66%;
+    flex-basis: 91.66%;
   }
   .helium-grid .sm-12 {
-    width: 100%;
+    flex-basis: 100%;
   }
 }
-
 @media screen and (min-width: 992px) {
   .helium-grid .md-1 {
-    width: 8.33%;
+    flex-basis: 8.33%;
   }
   .helium-grid .md-2 {
-    width: 16.66%;
+    flex-basis: 16.66%;
   }
   .helium-grid .md-3 {
-    width: 25%;
+    flex-basis: 25%;
   }
   .helium-grid .md-4 {
-    width: 33.33%;
+    flex-basis: 33.33%;
   }
   .helium-grid .md-5 {
-    width: 41.66%;
+    flex-basis: 41.66%;
   }
   .helium-grid .md-6 {
-    width: 50%;
+    flex-basis: 50%;
   }
   .helium-grid .md-7 {
-    width: 58.33%;
+    flex-basis: 58.33%;
   }
   .helium-grid .md-8 {
-    width: 66.66%;
+    flex-basis: 66.66%;
   }
   .helium-grid .md-9 {
-    width: 75%;
+    flex-basis: 75%;
   }
   .helium-grid .md-10 {
-    width: 83.33%;
+    flex-basis: 83.33%;
   }
   .helium-grid .md-11 {
-    width: 91.66%;
+    flex-basis: 91.66%;
   }
   .helium-grid .md-12 {
-    width: 100%;
+    flex-basis: 100%;
   }
 }
-
 @media screen and (min-width: 1200px) {
   .helium-grid .lg-1 {
-    width: 8.33%;
+    flex-basis: 8.33%;
   }
   .helium-grid .lg-2 {
-    width: 16.66%;
+    flex-basis: 16.66%;
   }
   .helium-grid .lg-3 {
-    width: 25%;
+    flex-basis: 25%;
   }
   .helium-grid .lg-4 {
-    width: 33.33%;
+    flex-basis: 33.33%;
   }
   .helium-grid .lg-5 {
-    width: 41.66%;
+    flex-basis: 41.66%;
   }
   .helium-grid .lg-6 {
-    width: 50%;
+    flex-basis: 50%;
   }
   .helium-grid .lg-7 {
-    width: 58.33%;
+    flex-basis: 58.33%;
   }
   .helium-grid .lg-8 {
-    width: 66.66%;
+    flex-basis: 66.66%;
   }
   .helium-grid .lg-9 {
-    width: 75%;
+    flex-basis: 75%;
   }
   .helium-grid .lg-10 {
-    width: 83.33%;
+    flex-basis: 83.33%;
   }
   .helium-grid .lg-11 {
-    width: 91.66%;
+    flex-basis: 91.66%;
   }
   .helium-grid .lg-12 {
-    width: 100%;
+    flex-basis: 100%;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .helium-grid .xl-1 {
+    flex-basis: 8.33%;
+  }
+  .helium-grid .xl-2 {
+    flex-basis: 16.66%;
+  }
+  .helium-grid .xl-3 {
+    flex-basis: 25%;
+  }
+  .helium-grid .xl-4 {
+    flex-basis: 33.33%;
+  }
+  .helium-grid .xl-5 {
+    flex-basis: 41.66%;
+  }
+  .helium-grid .xl-6 {
+    flex-basis: 50%;
+  }
+  .helium-grid .xl-7 {
+    flex-basis: 58.33%;
+  }
+  .helium-grid .xl-8 {
+    flex-basis: 66.66%;
+  }
+  .helium-grid .xl-9 {
+    flex-basis: 75%;
+  }
+  .helium-grid .xl-10 {
+    flex-basis: 83.33%;
+  }
+  .helium-grid .xl-11 {
+    flex-basis: 91.66%;
+  }
+  .helium-grid .xl-12 {
+    flex-basis: 100%;
   }
 }
 
-@media screen and (min-width: 1600px) {
-  .helium-grid .xl-1 {
-    width: 8.33%;
-  }
-  .helium-grid .xl-2 {
-    width: 16.66%;
-  }
-  .helium-grid .xl-3 {
-    width: 25%;
-  }
-  .helium-grid .xl-4 {
-    width: 33.33%;
-  }
-  .helium-grid .xl-5 {
-    width: 41.66%;
-  }
-  .helium-grid .xl-6 {
-    width: 50%;
-  }
-  .helium-grid .xl-7 {
-    width: 58.33%;
-  }
-  .helium-grid .xl-8 {
-    width: 66.66%;
-  }
-  .helium-grid .xl-9 {
-    width: 75%;
-  }
-  .helium-grid .xl-10 {
-    width: 83.33%;
-  }
-  .helium-grid .xl-11 {
-    width: 91.66%;
-  }
-  .helium-grid .xl-12 {
-    width: 100%;
-  }
-}
 /*# sourceMappingURL=helium-grid.css.map */
