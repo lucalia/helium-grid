@@ -22,7 +22,7 @@ The simplest way to use this framework is to call our CDN. We would strongly enc
 
 ### The Hard Way
 
-To start out with, your project should definitely already be using a preprocessor. We use SASS (if you use LESS or another, it should be easier enough to convert). Simply pull `_grid.scss` into your local project, and import the partial into your main SASS file
+To start out with, your project should definitely already be using a preprocessor. We use SASS (if you use LESS or another, it should be easy enough to convert). Simply pull `_grid.scss` into your local project, and import the partial into your main SASS file
 
 ```
     @import 'grid';
@@ -52,7 +52,7 @@ If you don't fill an entire row, the elements you do provide are centered by def
     </div>
 ```
 
-Should you desire different layout across different device types, you can add a class for each screen size. If you do not specify a width for smaller screen sizes, the default is to take an entire row.
+Should you desire different layouts across different device types, you can add a class for each screen size. If you do not specify a width for xs screen sizes, the default is to take an entire row.
 
 ```
     <!-- All rows will take 100% width on mobile devices, since xs sizing is not specified -->
@@ -85,6 +85,6 @@ Parent containers can be nested as many times as you deem fit in order to get th
 
 ## Customization
 
-If using [The Hard Way](#the-hard-way), you can modify the source code however you please and recompile. If you discover and amazing way to improve Helium Grid, please submit a pull request, I'd love to see this improve!
+If using [The Hard Way](#the-hard-way), you can modify the source code however you please and recompile. If you discover an amazing way to improve Helium Grid, please submit a pull request, I'd love to see this improve!
 
 If you decide our device sizes don't fit your needs, there is a `Variables` section in the source code where all these values are defined anc can be modified.
